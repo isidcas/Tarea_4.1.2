@@ -48,6 +48,11 @@ console.log( cadena.startsWith('h'));
 
 console.log( cadena.startsWith('H'));
 
-//Muestra Utilizando por TEMPLATE consola la STRINGS letra JAVASCRIPT
+//Muestra Utilizando por TEMPLATE consola la STRINGS letra JAV/ASCRIPT
+
+var mensaje = "Esto es un ejemplo con Template Strings";
+console.log(`Mensaje: ${mensaje}`);
+
+
 //“r” declara 10 veces.
 //3 variables con tu nombre, apellidos y edad y muéstralas por consola introduciéndolas dentro de una cadena.
