@@ -5,6 +5,9 @@
 var cadena = "Hola Mundo"
 
 //Muestra por consola la longitud de la cadena.
+
+console.log("Longitud de la cadena:", cadena.length);
+
 //Muestra por consola la cadena con todos sus caracteres en mayúsculas.
 //Muestra por consola la cadena con todos sus caracteres en minúsculas.
 //Muestra por consola la posición de la cadena en la que se encuentra la letra o.
