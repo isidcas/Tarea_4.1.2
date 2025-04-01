@@ -61,3 +61,8 @@ console.log(letraRepetida);
 
 
 //3 variables con tu nombre, apellidos y edad y muéstralas por consola introduciéndolas dentro de una cadena.
+var nombre = "Ismael";
+var apellidos = "Sidahmed Castro";
+var edad = "19";
+
+console.log(`Mi nombre es ${nombre}, mis apellidos son ${apellidos}, y tengo ${edad} años.`);
