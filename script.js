@@ -45,6 +45,9 @@ console.log(segundaParte);// En "Hola Mundo", esto nos da "Mundo"
 console.log( cadena.startsWith('h'));
 
 //Comprueba si la cadena empieza por “H”.
+
+console.log( cadena.startsWith('H'));
+
 //Muestra Utilizando por TEMPLATE consola la STRINGS letra JAVASCRIPT
 //“r” declara 10 veces.
 //3 variables con tu nombre, apellidos y edad y muéstralas por consola introduciéndolas dentro de una cadena.
