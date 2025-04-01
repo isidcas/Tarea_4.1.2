@@ -30,6 +30,16 @@ var nuevaCadena = cadena.replace("Mundo", "Youtube");
 console.log(nuevaCadena);
 
 //Extrae la segunda parte de la cadena y muéstrala por consola.
+
+var posicionEspacio = cadena.indexOf(" "); // Buscamos el espacio en la cadena y obtenemos su posición
+
+
+var segundaParte = cadena.substring(posicionEspacio + 1);// Extraemos la parte de la cadena que está después del espacio
+
+
+console.log(segundaParte);// En "Hola Mundo", esto nos da "Mundo"
+
+
 //Comprueba si la cadena empieza por “h”.
 //Comprueba si la cadena empieza por “H”.
 //Muestra Utilizando por TEMPLATE consola la STRINGS letra JAVASCRIPT
