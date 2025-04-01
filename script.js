@@ -55,4 +55,9 @@ console.log(`Mensaje: ${mensaje}`);
 
 
 //“r” declara 10 veces.
+
+var letraRepetida = "r".repeat(10);
+console.log(letraRepetida);
+
+
 //3 variables con tu nombre, apellidos y edad y muéstralas por consola introduciéndolas dentro de una cadena.
