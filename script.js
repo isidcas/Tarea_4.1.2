@@ -2,7 +2,7 @@
 
 //Declara una variable cuyo nombre sea cadena y tenga el valor “Hola Mundo”.
 
-var cadena = "Hola Mundo"
+let cadena = "Hola Mundo"
 
 //Muestra por consola la longitud de la cadena.
 
@@ -26,15 +26,15 @@ console.log(cadena.indexOf("Hola"));
 
 //Reemplaza la cadena “Mundo” por la cadena “Youtube” y muestra el resultado.
 
-var nuevaCadena = cadena.replace("Mundo", "Youtube");
+let nuevaCadena = cadena.replace("Mundo", "Youtube");
 console.log(nuevaCadena);
 
 //Extrae la segunda parte de la cadena y muéstrala por consola.
 
-var posicionEspacio = cadena.indexOf(" "); // Buscamos el espacio en la cadena y obtenemos su posición
+let posicionEspacio = cadena.indexOf(" "); // Buscamos el espacio en la cadena y obtenemos su posición
 
 
-var segundaParte = cadena.substring(posicionEspacio + 1);// Extraemos la parte de la cadena que está después del espacio
+let segundaParte = cadena.substring(posicionEspacio + 1);// Extraemos la parte de la cadena que está después del espacio
 
 
 console.log(segundaParte);// En "Hola Mundo", esto nos da "Mundo"
@@ -50,19 +50,19 @@ console.log( cadena.startsWith('H'));
 
 //Muestra Utilizando por TEMPLATE consola la STRINGS letra JAV/ASCRIPT
 
-var mensaje = "Esto es un ejemplo con Template Strings";
+let mensaje = "Esto es un ejemplo con Template Strings";
 console.log(`Mensaje: ${mensaje}`);
 
 
 //“r” declara 10 veces.
 
-var letraRepetida = "r".repeat(10);
+let letraRepetida = "r".repeat(10);
 console.log(letraRepetida);
 
 
 //3 variables con tu nombre, apellidos y edad y muéstralas por consola introduciéndolas dentro de una cadena.
-var nombre = "Ismael";
-var apellidos = "Sidahmed Castro";
-var edad = "19";
+let nombre = "Ismael";
+let apellidos = "Sidahmed Castro";
+let edad = "19";
 
 console.log(`Mi nombre es ${nombre}, mis apellidos son ${apellidos}, y tengo ${edad} años.`);
